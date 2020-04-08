@@ -5,7 +5,7 @@ bot = "username"
 channel = "username"
 messageCooldown = 5 # in seconds
 announcementCooldown = range(1700, 2000) # in seconds
-announcements = ['great job, keep it up!','proud of u <3','ur my fav streamer <3','way to go!','ur the best <3']
+announcements = ['follow me on twitter! https://twitter.com/','subscribe to me on twitch! https://twitch.tv/']
 
 def openSocket():
 	s = socket.socket()
@@ -46,7 +46,7 @@ def joinRoom(s):
 		for line in temp:
 			print(line)
 			Loading = loadingComplete(line)
-#   sendMessage(s, "") # initial startup message
+		#sendMessage(s, "") # initial startup message
 
 def loadingComplete(line):
 	if("End of /NAMES list" in line):
