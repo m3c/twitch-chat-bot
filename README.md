@@ -1,7 +1,7 @@
 # Twitch Chat Bot
 This is a very simple Twitch.tv chat bot written in Python 3.9! It's perfect to run in the background while you stream, to keep you and your viewers company.
 
-You need Python 3.9 *(tested using Python 3.9.1)* unstalled on your computer. Download Python 3.9 [here](https://www.python.org/downloads/).
+You need Python 3.9 *(tested using Python 3.9.1)* installed on your computer. Download Python 3.9 [here](https://www.python.org/downloads/).
 
 The script currently supports commands and timed announcements, each with specified cooldowns.
 
