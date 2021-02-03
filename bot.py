@@ -91,22 +91,22 @@ while True:
 
 			# commands (make sure all strings in if statements are lowercase)
 
-      if "hi" in message or "hello" in message or "hey" in message or "wassup" in message:
-        sendMessage(s, "FutureMan hi!")
+      if 'hi' in message or 'hello' in message or 'hey' in message or 'wassup' in message:
+        sendMessage(s, 'FutureMan hi!')
         break
 
-      if "food" in message or "munch" in message or "hungry" in message:
-        sendMessage(s, "ChefFrank Kappu")
+      if 'food' in message or 'munch' in message or 'hungry' in message:
+        sendMessage(s, 'ChefFrank Kappu')
         break
 
-      if "kappa" in message:
-        sendMessage(s, "Keepo")
+      if 'kappa' in message:
+        sendMessage(s, 'Keepo')
         break
 
-      if "!twit" in message:
-        sendMessage(s, "follow me on twitter! https://twitter.com/")
+      if '!twit' in message:
+        sendMessage(s, 'follow me on twitter! https://twitter.com/')
         break
         
-      if "!sub" in message:
-        sendMessage(s, "subscribe to me on twitch! https://twitch.tv/")
+      if '!sub' in message:
+        sendMessage(s, 'subscribe to me on twitch! https://twitch.tv/')
         break
