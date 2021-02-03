@@ -14,7 +14,7 @@ announcements = ['follow me on twitter! https://twitter.com/','...']
 ## Announcement cooldown
 You can adjust the time interval between announcements sent. The default is set to send an announcement every 1700 to 2000 seconds. See **line 7**.
 ```python
-announcementCooldown = range(1700, 2000) # in seconds
+announcementCooldown = list(range(1700, 2000)) # in seconds
 ```
 
 ## Adding commands
