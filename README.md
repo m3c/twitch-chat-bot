@@ -1,7 +1,7 @@
 # Twitch Chat Bot
-This is a very simple Twitch.tv chat bot written in Python 2.7 that you can run on Windows or macOS! It's perfect to run in the background while you stream, to keep you and your viewers company.
+This is a very simple Twitch.tv chat bot written in Python 3.9! It's perfect to run in the background while you stream, to keep you and your viewers company.
 
-You need Python 2.7 *(tested using Python 2.7.13)* unstalled on your computer. Download Python 2.7 [here](https://www.python.org/downloads/).
+You need Python 3.9 *(tested using Python 3.9.1)* unstalled on your computer. Download Python 3.9 [here](https://www.python.org/downloads/).
 
 The script currently supports commands and timed announcements, each with specified cooldowns.
 
@@ -18,10 +18,10 @@ announcementCooldown = range(1700, 2000) # in seconds
 ```
 
 ## Adding commands
-You can add your own custom commands. To add a command, go to **line 94**, and follow the setup of the default "hi" command. You can set multiple "trigger words" to send the same message.
+You can add your own custom commands. To add a command, go to **line 94**, and follow the setup of the default 'hi' command. You can set multiple 'trigger words' to send the same message.
 ```python
-if "hi" in message or "hello" in message or "hey" in message or "wassup" in message:
-	sendMessage(s, "FutureMan hi!")
+if 'hi' in message or 'hello' in message or 'hey' in message or 'wassup' in message:
+	sendMessage(s, 'FutureMan hi!')
 	break
 ```
 *Example: the trigger words **hi**, **hello**, **hey**, and **wassap** all send the same message: **FutureMan hi!***
