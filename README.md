@@ -1,5 +1,5 @@
 # Twitch Chat Bot
-This is a very simple Twitch.tv chat bot written in Python 3.9! It's perfect to run in the background while you stream, to keep you and your viewers company.
+This is a very simple Twitch.tv chat bot written in Python 3.9! It's perfect to run in the background while you stream (to give you and your viewers company).
 
 You need Python 3.9 *(tested using Python 3.9.1)* installed on your computer. Download Python 3.9 [here](https://www.python.org/downloads/).
 
@@ -27,7 +27,7 @@ if 'hi' in message or 'hello' in message or 'hey' in message or 'wassup' in mess
 *Example: the trigger words **hi**, **hello**, **hey**, and **wassap** all send the same message: **FutureMan hi!***
 
 **IMPORTANT:**
-Make sure all command trigger words are **lowercase**. The scirpt is setup to translate all in-chat messages to lowercase, so any commands with uppercase letters will not be triggered. If you'd like commands to be case-sensitive, go to **line 84**, and remove *.lower()*.
+Make sure all command trigger words are **lowercase**. The script is setup to translate all in-chat messages to lowercase, so any commands with uppercase letters will not be triggered. If you'd like commands to be case-sensitive, go to **line 84**, and remove *.lower()*.
 ```python
 message = getMessage(line).lower() # translates every message to lowercase letters
 ```
